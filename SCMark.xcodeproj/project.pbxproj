@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6490ADE7D4FC93C1B7659611 /* libPods-SCMark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F1B24DBABE556CB490416E /* libPods-SCMark.a */; };
+		E60285A61F1A81290046E073 /* SCMColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E60285A31F1A81290046E073 /* SCMColorModel.m */; };
+		E60285A71F1A81290046E073 /* UIImageView+SuperCornerMark.m in Sources */ = {isa = PBXBuildFile; fileRef = E60285A51F1A81290046E073 /* UIImageView+SuperCornerMark.m */; };
 		E6178E6D1F1A5D55007CB24E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6178E6C1F1A5D55007CB24E /* main.m */; };
 		E6178E701F1A5D55007CB24E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6178E6F1F1A5D55007CB24E /* AppDelegate.m */; };
 		E6178E721F1A5D55007CB24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6178E711F1A5D55007CB24E /* Assets.xcassets */; };
 		E6178E751F1A5D55007CB24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6178E731F1A5D55007CB24E /* LaunchScreen.storyboard */; };
 		E6178E7F1F1A6348007CB24E /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6178E7E1F1A6348007CB24E /* RootVC.m */; };
-		E6178E831F1A6399007CB24E /* UIImageView+SuperCornerMark.m in Sources */ = {isa = PBXBuildFile; fileRef = E6178E821F1A6399007CB24E /* UIImageView+SuperCornerMark.m */; };
-		E6178E861F1A63B8007CB24E /* SCMColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6178E851F1A63B8007CB24E /* SCMColorModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4F1B24DBABE556CB490416E /* libPods-SCMark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCMark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81050C0D6597D93CC936970 /* Pods-SCMark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCMark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCMark/Pods-SCMark.debug.xcconfig"; sourceTree = "<group>"; };
+		E60285A21F1A81290046E073 /* SCMColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCMColorModel.h; path = SuperCornerMark/SCMColorModel.h; sourceTree = SOURCE_ROOT; };
+		E60285A31F1A81290046E073 /* SCMColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCMColorModel.m; path = SuperCornerMark/SCMColorModel.m; sourceTree = SOURCE_ROOT; };
+		E60285A41F1A81290046E073 /* UIImageView+SuperCornerMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SuperCornerMark.h"; path = "SuperCornerMark/UIImageView+SuperCornerMark.h"; sourceTree = SOURCE_ROOT; };
+		E60285A51F1A81290046E073 /* UIImageView+SuperCornerMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SuperCornerMark.m"; path = "SuperCornerMark/UIImageView+SuperCornerMark.m"; sourceTree = SOURCE_ROOT; };
 		E6178E681F1A5D55007CB24E /* SCMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6178E6C1F1A5D55007CB24E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6178E6E1F1A5D55007CB24E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,10 +33,6 @@
 		E6178E761F1A5D55007CB24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6178E7D1F1A6348007CB24E /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
 		E6178E7E1F1A6348007CB24E /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
-		E6178E811F1A6399007CB24E /* UIImageView+SuperCornerMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SuperCornerMark.h"; sourceTree = "<group>"; };
-		E6178E821F1A6399007CB24E /* UIImageView+SuperCornerMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SuperCornerMark.m"; sourceTree = "<group>"; };
-		E6178E841F1A63B8007CB24E /* SCMColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMColorModel.h; sourceTree = "<group>"; };
-		E6178E851F1A63B8007CB24E /* SCMColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMColorModel.m; sourceTree = "<group>"; };
 		E62BA95E1F699FBF36E53F3E /* Pods-SCMark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCMark.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCMark/Pods-SCMark.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,10 +118,10 @@
 		E6178E801F1A6351007CB24E /* SCM */ = {
 			isa = PBXGroup;
 			children = (
-				E6178E811F1A6399007CB24E /* UIImageView+SuperCornerMark.h */,
-				E6178E821F1A6399007CB24E /* UIImageView+SuperCornerMark.m */,
-				E6178E841F1A63B8007CB24E /* SCMColorModel.h */,
-				E6178E851F1A63B8007CB24E /* SCMColorModel.m */,
+				E60285A21F1A81290046E073 /* SCMColorModel.h */,
+				E60285A31F1A81290046E073 /* SCMColorModel.m */,
+				E60285A41F1A81290046E073 /* UIImageView+SuperCornerMark.h */,
+				E60285A51F1A81290046E073 /* UIImageView+SuperCornerMark.m */,
 			);
 			name = SCM;
 			sourceTree = "<group>";
@@ -247,11 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60285A71F1A81290046E073 /* UIImageView+SuperCornerMark.m in Sources */,
 				E6178E7F1F1A6348007CB24E /* RootVC.m in Sources */,
+				E60285A61F1A81290046E073 /* SCMColorModel.m in Sources */,
 				E6178E701F1A5D55007CB24E /* AppDelegate.m in Sources */,
-				E6178E831F1A6399007CB24E /* UIImageView+SuperCornerMark.m in Sources */,
 				E6178E6D1F1A5D55007CB24E /* main.m in Sources */,
-				E6178E861F1A63B8007CB24E /* SCMColorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +404,7 @@
 				E6178E7B1F1A5D55007CB24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
