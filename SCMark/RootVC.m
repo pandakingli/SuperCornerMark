@@ -30,10 +30,24 @@
     NSURL *url = [NSURL URLWithString:s];
     
     SCMColorModel *cModel = [[SCMColorModel alloc]init];
-    cModel.display_name = @"角标";
+    cModel.display_name = @"左上角标";
     cModel.background_color = [UIColor redColor];
     cModel.text_color = [UIColor blueColor];
     [self.mView show_up_left_markWithModel:cModel];
+    
+    
+    SCMColorModel *rcModel = [[SCMColorModel alloc]init];
+    rcModel.display_name = @"右上角标";
+    rcModel.background_color = [UIColor redColor];
+    rcModel.text_color = [UIColor blueColor];
+    [self.mView show_up_right_markWithModel:rcModel];
+    
+    SCMColorModel *rdModel = [[SCMColorModel alloc]init];
+    rdModel.display_name = @"右下 21:10";
+    rdModel.background_color = [UIColor grayColor];
+    rdModel.text_color = [UIColor whiteColor];
+    [self.mView show_down_right_markWithModel:rdModel];
+
     
     [self.mView sd_setImageWithURL:url];
 }

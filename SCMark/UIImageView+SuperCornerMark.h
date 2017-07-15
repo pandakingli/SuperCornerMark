@@ -11,5 +11,27 @@
 
 @interface UIImageView (SuperCornerMark)
 
+
+/**
+ 左上角角标
+
+ @param cModel 文字颜色Model
+ */
 -(void)show_up_left_markWithModel:(SCMColorModel*)cModel;
+
+
+/**
+ 右上角角标
+
+ @param cModel 文字颜色Model
+ */
+-(void)show_up_right_markWithModel:(SCMColorModel*)cModel;
+
+
+/**
+ 右下角角标
+
+ @param cModel 文字颜色Model
+ */
+-(void)show_down_right_markWithModel:(SCMColorModel*)cModel;
 @end
