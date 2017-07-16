@@ -16,18 +16,24 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SCMark"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of SCMark."
+  s.version      = "1.0.0"
 
+  s.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '7.0'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
+
+  s.summary      = "A Library for iOS to use for Corner mark."
+ 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = <<-DESC "SCMark" "SCM" "SuperCornerMark"
+  DESC
 
-  s.homepage     = "http://EXAMPLE/SCMark"
+  s.homepage     = "https://github.com/biubiublue/SuperCornerMark"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +44,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +58,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "mac2015" => "utopia.pro@aliyun.com" }
+  s.author             = { "biubiublue" => "utopia.pro@aliyun.com" }
   # Or just: s.author    = "mac2015"
   # s.authors            = { "mac2015" => "utopia.pro@aliyun.com" }
   # s.social_media_url   = "http://twitter.com/mac2015"
@@ -79,7 +85,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/SCMark.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/biubiublue/SuperCornerMark.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,9 +94,8 @@ Pod::Spec.new do |s|
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
-  #
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #''
+  s.source_files  = 'SuperCornerMark/*.{h,m}'
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,10 +122,10 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.frameworks = 'Foundation', 'UIKit'
 
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+   #s.libraries = 'Foundation', 'UIKit'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
