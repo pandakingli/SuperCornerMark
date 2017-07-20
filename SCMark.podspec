@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SCMark"
-  s.version      = "1.0.0"
+  s.version      = "1.0.3"
 
   s.osx.deployment_target = '10.8'
   s.ios.deployment_target = '7.0'
