@@ -21,6 +21,7 @@
 		527B0AC683B26FCE58D49CC6 /* Pods-SCMarkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCMarkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SCMarkDemo/Pods-SCMarkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		83DE9CBAE76B9273D8262F29 /* libPods-SCMarkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SCMarkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B858415B401C9DEA826EBF /* Pods-SCMarkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCMarkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SCMarkDemo/Pods-SCMarkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E63E41971F2030DE00B6E935 /* SCMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCMark.h; path = ../SCMark/SCMark.h; sourceTree = "<group>"; };
 		E6B9FBE41F1BAFDB00DA0DD9 /* SCMarkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCMarkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B9FBE81F1BAFDB00DA0DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6B9FBEA1F1BAFDB00DA0DD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		E6B9FBFB1F1BB01F00DA0DD9 /* SCMark */ = {
 			isa = PBXGroup;
 			children = (
+				E63E41971F2030DE00B6E935 /* SCMark.h */,
 				E6B9FBFC1F1BB02D00DA0DD9 /* SCMColorModel.h */,
 				E6B9FBFD1F1BB02D00DA0DD9 /* SCMColorModel.m */,
 				E6B9FBFE1F1BB02D00DA0DD9 /* UIImageView+SuperCornerMark.h */,
@@ -396,6 +398,7 @@
 				E6B9FBF71F1BAFDB00DA0DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

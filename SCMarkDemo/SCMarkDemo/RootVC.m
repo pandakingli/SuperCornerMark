@@ -7,7 +7,7 @@
 //
 
 #import "RootVC.h"
-#import "UIImageView+SuperCornerMark.h"
+#import "SCMark.h"
 #import <UIImageView+WebCache.h>
 
 @interface RootVC ()
