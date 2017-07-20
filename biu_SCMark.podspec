@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "biu_SCMark"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "good way to add corner mark"
 
   # This description is used to generate tags and improve search results.
@@ -63,11 +63,11 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+ s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+ s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-
+   s.frameworks = 'Foundation', 'UIKit'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+ s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
