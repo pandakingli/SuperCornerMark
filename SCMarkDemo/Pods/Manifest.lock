@@ -1,14 +1,17 @@
 PODS:
+  - biu_SHColor (1.0.0)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
+  - biu_SHColor
   - SDWebImage (~> 3.8)
 
 SPEC CHECKSUMS:
+  biu_SHColor: 2cbe20f7d9c14488d27ea3f6a2504e84c3e08949
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 50982a75fad94a4346b9dcc4c810392962ba9ac1
+PODFILE CHECKSUM: 19b7b45f81d2c31876f2468c1b6e3232b8b78683
 
 COCOAPODS: 1.2.1

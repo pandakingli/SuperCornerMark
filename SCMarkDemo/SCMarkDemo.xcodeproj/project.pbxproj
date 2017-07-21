@@ -35,6 +35,7 @@
 		E6B9FBFD1F1BB02D00DA0DD9 /* SCMColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCMColorModel.m; path = ../SCMark/SCMColorModel.m; sourceTree = "<group>"; };
 		E6B9FBFE1F1BB02D00DA0DD9 /* UIImageView+SuperCornerMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SuperCornerMark.h"; path = "../SCMark/UIImageView+SuperCornerMark.h"; sourceTree = "<group>"; };
 		E6B9FBFF1F1BB02D00DA0DD9 /* UIImageView+SuperCornerMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SuperCornerMark.m"; path = "../SCMark/UIImageView+SuperCornerMark.m"; sourceTree = "<group>"; };
+		E6CF35381F21C6B900A126B0 /* SCMarkUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCMarkUIConstants.h; path = ../SCMark/SCMarkUIConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 		E6B9FBFB1F1BB01F00DA0DD9 /* SCMark */ = {
 			isa = PBXGroup;
 			children = (
+				E6CF35381F21C6B900A126B0 /* SCMarkUIConstants.h */,
 				E63E41971F2030DE00B6E935 /* SCMark.h */,
 				E6B9FBFC1F1BB02D00DA0DD9 /* SCMColorModel.h */,
 				E6B9FBFD1F1BB02D00DA0DD9 /* SCMColorModel.m */,

@@ -1,4 +1,5 @@
 platform :ios,'7.0'
 target "SCMarkDemo" do
 pod 'SDWebImage','~>3.8'
+pod 'biu_SHColor'
 end

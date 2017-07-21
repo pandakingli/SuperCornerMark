@@ -9,7 +9,7 @@
 #import "RootVC.h"
 #import "SCMark.h"
 #import <UIImageView+WebCache.h>
-
+#import <biu_SHColor/SHColor.h>
 @interface RootVC ()
 @property(nonatomic,strong) UIImageView* mView;
 @end
@@ -28,24 +28,34 @@
     
     NSString *s = @"http://p3.music.126.net/lMXmZrEKZOPWa-sm8xsuHA==/1415071466291401.jpg";
     NSURL *url = [NSURL URLWithString:s];
+
+    SCMColorModel *cModel   = [SCMColorModel createDefaultModel];
+    cModel.display_name     = @"左上角标";
+    cModel.background_color = ColorByHexStr(@"#7ff8b0b7");
+    cModel.text_color       = ColorByHexStr(@"#008080");
     
-    SCMColorModel *cModel = [[SCMColorModel alloc]init];
-    cModel.display_name = @"左上角标";
-    cModel.background_color = [UIColor redColor];
-    cModel.text_color = [UIColor blueColor];
     [self.mView show_up_left_markWithModel:cModel];
+
+    SCMColorModel *ldcModel   = [SCMColorModel createDefaultModel];
+    ldcModel.display_name     = @"左下角标";
+    ldcModel.background_color = ColorByHexStr(@"#7ff8b0b7");
+    ldcModel.text_color       = ColorByHexStr(@"#008080");
     
+    [self.mView show_down_left_markWithModel:ldcModel];
     
-    SCMColorModel *rcModel = [[SCMColorModel alloc]init];
-    rcModel.display_name = @"右上角标";
-    rcModel.background_color = [UIColor redColor];
-    rcModel.text_color = [UIColor blueColor];
+
+    SCMColorModel *rcModel   = [SCMColorModel createDefaultModel];
+    rcModel.display_name     = @"右上角标";
+    rcModel.background_color = ColorByHexStr(@"#7ff8b0b7");
+    rcModel.text_color       = ColorByHexStr(@"#008080");
+    
     [self.mView show_up_right_markWithModel:rcModel];
-    
-    SCMColorModel *rdModel = [[SCMColorModel alloc]init];
-    rdModel.display_name = @"右下 21:10";
-    rdModel.background_color = [UIColor grayColor];
-    rdModel.text_color = [UIColor whiteColor];
+
+    SCMColorModel *rdModel   = [SCMColorModel createDefaultModel];
+    rdModel.display_name     = @"右下 21:10";
+    rdModel.background_color = ColorByHexStr(@"#7ff8b0b7");
+    rdModel.text_color       = ColorByHexStr(@"#008080");
+                               
     [self.mView show_down_right_markWithModel:rdModel];
 
     

@@ -13,12 +13,23 @@
 
 
 /**
+ 隐藏所有角标
+ */
+-(void)hideAllMarks;
+
+/**
  左上角角标
 
  @param cModel 文字颜色Model
  */
 -(void)show_up_left_markWithModel:(SCMColorModel*)cModel;
 
+/**
+ 左下角角标
+ 
+ @param cModel 文字颜色Model
+ */
+-(void)show_down_left_markWithModel:(SCMColorModel*)cModel;
 
 /**
  右上角角标
